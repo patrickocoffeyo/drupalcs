@@ -12,3 +12,6 @@ This repository contains a portable Gulp-based tool that checks a Drupal install
 # Use
  - **phpcs**: run `gulp phpcs` to check all module/theme php files for issues.
  - **jscs/lint**: run `gulp lint` to check all module/theme javascript files for issues.
+
+# Credit
+[Jon Peck](https://github.com/fluxsauce) - `.jscsrc` file is borrowed from https://github.com/fluxsauce/jscs-drupal/blob/master/.jscsrc
