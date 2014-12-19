@@ -1,0 +1,21 @@
+{
+  "name": "pri.org",
+  "description": "Development tools for pri.org codebase",
+  "version": "0.3.0",
+  "bugs": {
+    "url": "https://fourkitchens.atlassian.net/browse/PP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PublicRadioInternational/pri.org.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-jscs": "^1.3.1",
+    "gulp-jshint": "^1.6.2",
+    "gulp-phpcs": "^0.3.0",
+    "gulp-prompt": "^0.1.1",
+    "gulp-shell": "^0.2.11"
+  }
+}
