@@ -9,19 +9,5 @@
   "requireSpaceAfterBinaryOperators": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
   "disallowSpacesInsideObjectBrackets": true,
-  "disallowSpacesInsideArrayBrackets": true,
-  "requireSpacesInConditionalExpression": true,
-  "disallowSpacesInNamedFunctionExpression": {
-    "beforeOpeningRoundBrace": true
-  },
-  "requireSpacesInAnonymousFunctionExpression": {
-    "beforeOpeningRoundBrace": true,
-    "beforeOpeningCurlyBrace": true
-  },
-  "requireSpacesInFunctionExpression" : {
-    "beforeOpeningCurlyBrace": true
-  },
-  "requireSpaceAfterLineComment": true,
-  "requireSpaceAfterKeywords": [true],
-  "requireSpaceBeforeBlockStatements": true
+  "disallowSpacesInsideArrayBrackets": true
 }
