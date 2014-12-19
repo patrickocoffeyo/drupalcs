@@ -47,10 +47,10 @@ gulp.task('phpcs', function () {
     'sites/all/themes/**/*.php',
     'sites/all/modules/custom/**/*.php',
     'sites/all/modules/custom/**/*.module',
-    'sites/all/modules/custom/**/*.include',
+    'sites/all/modules/custom/**/*.inc',
     'sites/all/modules/features/**/*.php',
     'sites/all/modules/features/**/*.module',
-    'sites/all/modules/features/**/*.include',
+    'sites/all/modules/features/**/*.inc',
   ])
   .pipe(phpcs({
     bin: '/usr/local/bin/phpcs',
