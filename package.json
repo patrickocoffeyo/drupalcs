@@ -1,13 +1,13 @@
 {
-  "name": "pri.org",
-  "description": "Development tools for pri.org codebase",
-  "version": "0.3.0",
+  "name": "drupalcs",
+  "description": "Portable Gulp tool that checks a Drupal installation for JavaScript and PHP syntax errors.",
+  "version": "0.0.1",
   "bugs": {
-    "url": "https://fourkitchens.atlassian.net/browse/PP"
+    "url": "https://github.com/patrickocoffeyo/drupalcs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:PublicRadioInternational/pri.org.git"
+    "url": "git@github.com:patrickocoffeyo/drupalcs.git"
   },
   "dependencies": {},
   "devDependencies": {

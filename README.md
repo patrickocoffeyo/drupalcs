@@ -1,4 +1,6 @@
-drupalcs
-========
+# Drupal Coding Standards
 
-Portable Gulp tool that checks a Drupal installation for JavaScript and PHP syntax errors.
+This repository contains a portable Gulp-based tool that checks a Drupal installation for JavaScript and PHP syntax errors.
+
+# Installation
+Copy the package.json
