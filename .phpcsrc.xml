@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <ruleset name="DOR">
-    <description>A ruleset custom-built for Stanford DOR.</description>
+    <description>Drupal coding standards ruleset.</description>
     <!-- Include the whole Drupal standard -->
     <rule ref="./vendor/drupalmodule/coder/coder_sniffer/Drupal">
-      <!-- Exclude the variable naming conventions sniff so we can use camel case if we wnat to. -->
-      <exclude name="Drupal.NamingConventions.ValidVariableName"/>
     </rule>
 </ruleset>
