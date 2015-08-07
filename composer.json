@@ -1,6 +1,6 @@
 {
-  "name": "ContinuumIO/website-D7",
-  "description": "Continuum.io website.",
+  "name": "patrickocoffey/drupalcs",
+  "description": "Drupal Coding Standards",
   "version": "0.0.1",
   "repositories": [
     {
