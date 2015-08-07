@@ -1,0 +1,23 @@
+{
+  "name": "ContinuumIO/website-D7",
+  "description": "Continuum.io website.",
+  "version": "0.0.1",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "drupalmodule/coder",
+        "version": "7.2.5",
+        "dist": {
+          "url": "http://ftp.drupal.org/files/projects/coder-7.x-2.5.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ],
+  "require": {
+    "squizlabs/php_codesniffer": "~1",
+    "drupalmodule/coder": "~7.2",
+    "drupal/drupal-extension": "~3.0"
+  }
+}
