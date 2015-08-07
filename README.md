@@ -1,17 +1,28 @@
 # Drupal Coding Standards
+This repository contains a portable Gulp-based tool that lints custom JavaScript and PHP files, and checks them for coding standards violations.
 
-This repository contains a portable Gulp-based tool that checks a Drupal installation for JavaScript and PHP syntax errors.
+## Requirements
+ * [Node.js & NPM](https://github.com/creationix/nvm)
+ * [Composer](https://getcomposer.org/download)
 
-# Installation
- - Install the latest version of nodejs, npm, and gulp on your computer.
- - Copy the `package.json`, `.jscsrc`, and `gulpfile.js` file from this repo to your Drupal site root.
- - In your Drupal site root, run: `npm install`. This will install the npm modules needed by the gulpfile.
- - Add `node_modules` too your `.gitignore` file. Don't want to commit those npm modules!!
- - Install [PHPCodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer). If your `phpcs` executable isn't in `/usr/local/bin/phpcs`, update the `bin` setting for the phpcs task in `gulpfile.js`.
- 
-# Use
- - **phpcs**: run `gulp phpcs` to check all module/theme php files for issues.
- - **jscs/lint**: run `gulp lint` to check all module/theme javascript files for issues.
+## Installation
+ * Copy these files from this repository to your Drupal site root:
+   * `package.json`
+   * `composer.json`
+   * `.jscsrc`
+   * `.eslintrc`
+   * `.phpcsrc.xml`
+   * `gulpfile.js`
+ * Run the following command in your Drupal site root:
+   * `npm install`
+   * `composer install`
+ * Add `node_modules` and `vendor` too your `.gitignore` file so that you don't commit module/vendor files.
 
-# Credit
+## Use
+To get a full list of tasks and documentation, run `gulp` in your Drupal site root.
+
+ * `gulp php`: Lints and scans php files for formatting errors.
+ * `gulp js`: Lints and scans js files for formatting errors.
+
+## Credit
 [Jon Peck](https://github.com/fluxsauce) - `.jscsrc` file is borrowed from https://github.com/fluxsauce/jscs-drupal/blob/master/.jscsrc
